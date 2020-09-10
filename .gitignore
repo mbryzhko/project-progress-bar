@@ -1,0 +1,17 @@
+logs
+project/project
+project/target
+target
+tmp
+build
+
+# Vaadin Node
+node_modules
+package.json
+package-lock.json
+webpack.config.js
+webpack.generated.js
+
+# IntelliJ files
+*.iml
+.idea

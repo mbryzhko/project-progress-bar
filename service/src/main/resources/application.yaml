@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: project-progress-bar-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/ppb_db?useSSL=false
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
+    flyway:
+      enabled: true
+
+server.port: 8080
+
+ppb:
+  reportingPeriod:
+    startQuarter: 2020-05

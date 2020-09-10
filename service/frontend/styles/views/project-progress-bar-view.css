@@ -1,0 +1,41 @@
+.app-title {
+    font-size: 200%;
+}
+
+.add-new-project-btn {
+    margin-top: 11px;
+    margin-left: 50px;
+}
+
+.timeline-m1 {
+    width: 33%;
+    text-align: center;
+    border-left-style: solid;
+    border-left-width: thin;
+}
+
+.timeline-m2 {
+    width: 33%;
+    text-align: center;
+    border-left-style: dotted;
+    border-left-width: thin;
+}
+
+.timeline-m3 {
+    width: 33%;
+    text-align: center;
+    border-right-style: solid;
+    border-right-width: thin;
+    border-left-style: dotted;
+    border-left-width: thin;
+}
+
+.progress-bar-start {
+    border-left-style: solid;
+    border-left-width: thin;
+}
+
+.progress-bar-end {
+    border-right-style: solid;
+    border-right-width: thin;
+}

@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${cond.test.databaseHost:localhost}:${cond.test.databasePort:3306}/ppb_db?useSSL=false
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
+    flyway:
+      enabled: true
+
+  test:
+    database:
+      replace: NONE
+
+ppb:
+  reportingPeriod:
+    startQuarter: 2020-05

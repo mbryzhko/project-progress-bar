@@ -1,0 +1,3 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${DB_PORT_3306_TCP_ADDR}:${DB_PORT_3306_TCP_PORT}/ppb_db?useSSL=false
